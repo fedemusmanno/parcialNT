@@ -48,7 +48,7 @@
             v-model.trim="formData.apellido"
             required
             :minlength="nomApLengthMin"
-            :maxlength="apellidoLengthMax"
+            :maxlength="nomApLengthMax"
             sin-espacios-medios
           >
           <field-messages name="apellido" show="$dirty">
